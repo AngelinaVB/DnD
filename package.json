@@ -6,7 +6,7 @@
     "webpack-merge": "^6.0.1",
     "yarn": "^1.22.22"
   },
-  "name": "workingFiles_dnd",
+  "name": "DnD",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
@@ -19,6 +19,11 @@
     "show:dist": "live-server dist",
     "test": "jest --testPathPattern=./src/",
     "coverage": "jest --testPathPattern=./src/ --coverage"
+  },
+  
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AngelinaVB/DnD.git"
   },
   "author": "“Angelina” <b.lina.1995@mail.ru>",
   "license": "MIT",

@@ -1,1 +1,1 @@
-[![.github/workflows/main.yml](https://github.com/AngelinaVB/DnD/actions/workflows/main.yml/badge.svg?branch=main)](https://github.com/AngelinaVB/DnD/actions/workflows/main.yml)
+[![DnD](https://github.com/AngelinaVB/DnD/actions/workflows/main.yml/badge.svg)](https://angelinavb.github.io/DnD/)

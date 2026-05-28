@@ -12,15 +12,14 @@
   "scripts": {
     "start": "webpack-dev-server --config webpack.dev.js",
     "build": "webpack --config webpack.prod.js",
-    "lint": "eslint .",
-    "preshow:coverage": "npm run coverage",
+    "lint": "eslint . --fix",
+    "preshow:coverage": "yarn run coverage",
     "show:coverage": "live-server coverage/lcov-report",
-    "preshow:dist": "npm run build",
+    "preshow:dist": "yarn run build",
     "show:dist": "live-server dist",
-    "test": "jest --testPathPattern=./src/",
-    "coverage": "jest --testPathPattern=./src/ --coverage"
+    "test": "jest",
+    "coverage": "jest --coverage"
   },
-  
   "repository": {
     "type": "git",
     "url": "git+https://github.com/AngelinaVB/DnD.git"
